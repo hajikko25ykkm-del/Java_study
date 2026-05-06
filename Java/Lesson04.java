@@ -21,5 +21,9 @@ class Lesson04 {
 
     System.out.println(x < y);
     System.out.println(x > y);
+
+    System.out.println(x >= y);
+    System.out.println(x <= y);
+    System.out.println(x <= z);
   }
 }
