@@ -12,6 +12,8 @@
 
 // 代入演算子  変数に値を代入する
 // = 代入
+
+// 複合代入演算子  変数に値を代入する際に、演算も同時に行う
 // += 足す
 // -= 引く
 // *= 掛ける
@@ -27,6 +29,8 @@ class Lesson05 {
     int x = 10;
     int y = 2;
     int z = 10;
+    x++;  // xを1増やす
+    y--;  // yを1減らす
 
     System.out.println(x == y);  // 等しければtrueになるが、xはyと等しくないのでfalseになる
     System.out.println(x != y);  // 等しくなければtrueになるが、xはyと等しくないのでtrueになる
@@ -40,5 +44,7 @@ class Lesson05 {
     System.out.println(x += 5);
     System.out.println(z += y);
 
+    System.out.println(x);
+    System.out.println(y);
   }
 }
